@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="index.css">
+
+
+</head>
+
+<body>
+    <header class="header">
+        <a class="logo text-decoration-none" href="index.html">Sym<span>po</span></a>
+        <nav class="navbar">
+            <a href="#home" class="home text-decoration-none">Home</a>
+            <a href="#register" class="about text-decoration-none">Register</a>
+            <a href="#details" class="speaker text-decoration-none">Details </a>
+            <a href="#query" class="contact text-decoration-none">Queries</a>
+        </nav>
+
+    </header>
+
+
+
+
+
+
+    <div class="body" id="home">
+        <h2>
+            Be ready to witness one of India's largest corporate tech fest
+        </h2>
+        <p class="catchl">Connecting minds, shaping the future</p>
+        <div class="main">
+            <div id="carouselExampleCaptions" class="carousel slide">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+                        aria-label="Slide 4"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="seminar.jpg" class="d-block w-100 " alt="motive ">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5 >Seminars over trending topic</h5>
+                            <p>Welcome to our informative session, where we bring together experts to share their knowledge and experience!<br>
+                                We hope that you will find our session insightful and thought-provoking. From industry trends to best practices, our session offers valuable information for personal and professional growth. We are excited to host our esteemed speakers, and we hope that you will engage in meaningful discussions and gain new perspectives. So, let's expand our knowledge and make the most of this informative session!</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="food.jpg" class="d-block w-100" alt="food">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Food Festival</h5>
+                            <p>Welcome to our food festival, where we celebrate the world's most delicious cuisines and flavors! <br>We are thrilled to have you join us on this culinary adventure and hope that you will enjoy the wide variety of dishes and drinks that we have prepared for you.<br>
+                                So, let's indulge in the flavors and aromas of the world and make this festival an unforgettable experience!
+
+                            </p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="fun.jpg" class="d-block w-100" alt="activity">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Fun Events</h5>
+                            <p>Welcome to our fun event, where we celebrate laughter, joy, and excitement! <br>We are thrilled to have you join us on this journey of fun and entertainment, and hope that you will enjoy the wide variety of activities and performances that we have prepared for you<br>
+                                So, let's have fun and make some amazing memories together!</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="dance.jpg" class="d-block w-100" alt="dance">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5 class="fourth">Concert</h5>
+                            <p class="fourth">Welcome to our musical celebration, where we bring together the best of melodies and rhythms!<br>
+                                From soulful vocals to electrifying instrumentals, our musical celebration offers something for everyone's taste.<br>
+                                So, let's lose ourselves in the melodies and make this musical celebration an unforgettable experience!
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+        <div class="register" id="register">
+            <h3>
+                REGISTER
+            </h3>
+            <div class="row g-3">
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="First name" aria-label="First name" required>
+                </div>
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="Last name" aria-label="Last name" required>
+                </div>
+            </div>
+            <form class="row g-3">
+                <div class="col-md-6">
+                    <label for="inputEmail4" class="form-label"></label>
+                    <input type="email" class="form-control" id="inputEmail4" placeholder="Email" required>
+                </div>
+                <div class="col-md-6">
+                    <label for="inputPassword4" class="form-label"></label>
+                    <input type="password" class="form-control" id="inputPassword4" placeholder="Password" required>
+                </div>
+                <div class="col-md-6">
+                    <label for="inputState" class="form-label"></label>
+                    <select id="inputState" class="form-select" style="background-color: #383939;" required>
+                        <option selected>Gender</option>
+                        <option>Male</option>
+                        <option>Female</option>
+
+                    </select>
+                </div>
+                <div class="col-md-6">
+                    <label for="inputField" class="form-label"></label>
+                    <input type="text" class="form-control" id="inputField" placeholder="Field of Interest" required>
+                </div>
+
+                <div class="col-md-6">
+                    <label for="inputCity" class="form-label"></label>
+                    <input type="text" class="form-control" id="inputCity" placeholder="City" required>
+                </div>
+                <div class="col-md-6">
+                    <label for="inputState" class="form-label"></label>
+                    <input type="text" class="form-control" id="inputState" placeholder="State" required>
+
+                </div>
+
+                <div class="col-lg-18">
+                    <div class="form-check">
+                        <label class="form-check-label" for="gridCheck">
+                            <input class="form-check-input" type="checkbox" id="gridCheck" required>
+
+                            I Accept all Terms and conditions
+                        </label>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <button type="submit" class="btn btn-primary"> Register</button>
+                </div>
+            </form>
+        </div>
+        <div id="details" class="details">
+            <div class="con">
+                <div class="row">
+                    <div class="col-sm-3 mb-3 mb-sm-0">
+                        <div class="card">
+                            <div class="ven card-body">
+                                <i class="fa-solid fa-location-dot"></i>
+                                <h5 class="card-title">Venue </h5>
+                                <p class="card-text"><a href="#"class="text-decoration-none">Shivaji auditorium, Azad Maidan<br>
+                                    Andheri East, Mumbai-400069</a></p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="card">
+                            <div class="card-body">
+                                <i class="fa-solid fa-calendar-days"></i>
+                                <h5 class="card-title">Date
+
+                                </h5>
+                                <p class="card-text"> 25th-27th April 2023<br>
+                                    
+                        
+                                    </p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="card">
+                            <div class="card-body">
+                                <i class="fa-solid fa-business-time"></i>
+
+                                <h5 class="card-title">Time</h5>
+                                <p class="card-text"> 10:00am-12:00am
+                                    </p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+
+        </div>
+        <div id="query" class="query">
+            <h3>
+                Send Us Your Query
+            </h3>
+            <div class="row g-3">
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="First name" aria-label="First name" required>
+                </div>
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="Last name" aria-label="Last name" required>
+                </div>
+            </div>
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label"></label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email address">
+            </div>
+            <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label"></label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="6"
+                    placeholder="Write your message"></textarea>
+            </div>
+            <div class="col-12">
+                <button type="submit" class="btn btn-primary"> Send Message</button>
+            </div>
+
+        </div>
+
+
+
+
+    </div>
+    <div class="footer">
+
+        <div class="contactinfo">
+            <h3>Contact Info</h3>
+            <div class="det">
+                <p><i class="fas fa-phone"></i><a href="#" class="text-decoration-none">+91-22-12345678 </a></p>
+
+                <p> <i class="fas fa-phone"></i><a href="#" class="text-decoration-none">+91-8123456789 </a></p>
+
+                <p><i class="fas fa-envelope"><a href="#" class="text-decoration-none">innovatech@gmail.com</a></i></p>
+            </div>
+
+
+        </div>
+        <div class="address">
+            <h3>Address</h3>
+            <div class="det">
+                <p><i class="fas fa-location-dot"></i><a href="#"class="text-decoration-none">Sahar Road,<br>
+                    Andheri East, Mumbai-400069</a> 
+                </p>
+            </div>
+        </div>
+        <div class="follow">
+            <h3>Follow Us</h3>
+            <div class="det">
+                <p><i class="fa-brands fa-facebook"></i><a href="#"class="text-decoration-none">Facebook</a> 
+                </p>
+                <p><i class="fa-brands fa-instagram"></i><a href="#"class="text-decoration-none">Instagram</a> 
+                </p>
+                <p><i class="fa-brands fa-twitter"></i><a href="#"class="text-decoration-none">Twitter</a> 
+                </p>
+                <p><i class="fa-brands fa-linkedin"></i><a href="#"class="text-decoration-none">LinkedIn</a> 
+                </p>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+
+</body>
+
+</html>

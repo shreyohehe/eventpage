@@ -1,0 +1,364 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&display=swap');
+
+:root {
+    --main-color: black;
+
+}
+
+
+* {
+    font-family: 'Roboto Condensed', sans-serif;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    margin: 0;
+    padding: 0;
+    color: whitesmoke;
+
+    text-decoration: none;
+    transition: .3s linear;
+
+}
+
+html {
+    font-size: 100%;
+    overflow-x: hidden;
+    scroll-padding-top: 7rem;
+    scroll-behavior: smooth;
+}
+
+body {
+    background: black;
+
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1000;
+    background-color: rgb(32, 32, 32);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 9%;
+
+    height: 80px;
+}
+
+.header .logo {
+    font-weight: bolder;
+    font-size: 2.5rem;
+    color: white;
+}
+
+.header .navbar a {
+    font-size: 1.7rem;
+    color: white;
+    margin-right: 2rem;
+}
+
+.navbar a:hover {
+    color: rgb(120, 220, 188);
+
+}
+
+.body {
+    text-align: center;
+    justify-content: center;
+    margin: 100px auto;
+    color: whitesmoke;
+}
+
+
+.body h2 {
+    font-weight: bold;
+}
+
+.body .catchl {
+    font-weight: bold;
+
+    font-size: 24px;
+
+}
+
+.main {
+
+
+    align-items: center;
+    background-color: rgb(35, 34, 34);
+    color: black;
+
+     width: 80%; 
+    margin: 30px auto;
+
+
+}
+
+.main h5 {
+    font-weight: bolder;
+    text-shadow: 5px 5px 10px black;
+}
+.main p{
+    color: inherit;
+    text-shadow:  5px 5px 10px black;
+}
+.carousel-item .fourth{
+    color: inherit;
+    text-shadow:  5px 5px 10px black;
+
+}
+
+.carousel-item img {
+
+    height: 95vh;
+}
+
+.register {
+
+
+    width: 60%;
+
+    display: inline-block;
+    margin-top: 60px;
+}
+
+.row {
+
+    margin-top: 9px;
+
+
+}
+
+.form-control::placeholder {
+    color: whitesmoke;
+    opacity: 1;
+}
+
+select {
+    color: whitesmoke !important;
+}
+
+input[type=text] {
+    color: whitesmoke !important;
+    background-color: #383939;
+
+}
+
+input[type=email] {
+    color: whitesmoke !important;
+    background-color: #383939;
+
+}
+
+input[type=password] {
+    color: whitesmoke !important;
+    background-color: #383939;
+
+}
+
+#exampleFormControlTextarea1 {
+    color: whitesmoke !important;
+    background-color: #383939;
+
+}
+
+.form-check-label {
+    padding: 9px 0 5px 0;
+}
+
+select:focus {
+
+    background-color: rgb(78, 78, 79) !important;
+
+}
+
+#exampleFormControlTextarea1:focus {
+    background-color: rgb(78, 78, 79);
+
+}
+
+input[type=text]:focus {
+    background-color: rgb(78, 78, 79);
+}
+
+input[type=email]:focus {
+    background-color: rgb(78, 78, 79);
+}
+
+input[type=password]:focus {
+    background-color: rgb(78, 78, 79);
+}
+
+.btn {
+    background-color: rgb(40, 39, 39);
+    padding: 10px 15px 10px 15px;
+}
+
+.details {
+    width: 100%;
+    color: black;
+    /* display: flex; */
+    justify-content: center;
+    margin-top: 86px;
+    align-items: center;
+
+
+
+}
+
+.con {
+    margin-left: 270px;
+    
+}
+
+.card {
+    color: whitesmoke;
+    width: 100%;
+    align-items: center;
+    background-color: #343535;
+
+
+
+}
+
+.card a{
+    color: whitesmoke;
+
+}
+a:hover{
+    color: rgb(200, 211, 208);
+}
+
+.fa-solid {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: rgb(120, 220, 188);
+}
+
+.query {
+
+    width: 60%;
+
+    display: inline-block;
+    margin-top: 80px;
+
+}
+
+.footer {
+
+
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 1000;
+    background-color: rgb(32, 32, 32);
+
+
+    display: flex;
+    justify-content: space-around;
+
+
+    padding: 1.5rem 9%;
+
+
+}
+
+.det {
+
+    margin-top: 18px;
+    font-size: 13px;
+
+
+
+}
+
+
+.det a {
+
+    color: white;
+    margin-left: 0.7rem;
+
+}
+
+.fas {
+    color: rgb(120, 220, 188);
+}
+
+
+.fa-brands {
+    color: rgb(120, 220, 188);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .btn {
+    font-size: 1.3rem;
+    color: white;
+    cursor: pointer;
+    background-color: rgb(32, 32, 32);
+     width: 0; 
+    padding-right: 1.5rem;
+     display: none; 
+   
+}  */
+/* .btn:hover{
+    color: rgb(231, 240, 240);
+} */
+
+
+@media (max-width:991px) {
+    html {
+        font-size: 55%;
+
+    }
+
+    .header {
+        padding: 1.5rem 2rem;
+    }
+
+
+}
+
+@media (max-width:768px) {
+    /* .btn {
+
+        display: initial;
+    }
+    .dropdown-menu{
+        background: #333;
+    }
+    .dropdown-item{
+        font-size: 2rem;
+        color: white;
+        padding:1.3rem;
+        margin:1.3rem;
+        background-color: rgb(24, 24, 24);
+
+    } */
+
+
+
+
+
+
+}
